@@ -9,3 +9,18 @@
     align-items: center;
     justify-content: center;
 }
+#search-bar{
+    width: 40vw;
+    height: 40px;
+    border: 1px rgba(173, 77, 77, 0.589) solid;
+    border-radius: 20px;
+}
+.button-box{
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+}
+#submit-button{
+    display: block;
+    margin-top: 2%;   
+}
