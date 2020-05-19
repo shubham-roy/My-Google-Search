@@ -12,8 +12,9 @@
 }
 
 #search-bar{
-    width: 40vw;
-    height: 40px;
+    width: 60vw;
+    min-width: 300px;
+    min-height: 45px;
     padding-left: 12px;
     border: 1px rgba(173, 77, 77, 0.589) solid;
     border-radius: 20px;
@@ -25,7 +26,8 @@ input:focus, textarea:focus {
 }
 
 .button-box{
-    width: 40vw;
+    width: 60vw;
+    min-width: 300px;
     display: flex;
     justify-content: center;
 }
@@ -53,6 +55,7 @@ input:focus, textarea:focus {
 
 .adv-search-button{
     float: right;
+    margin-bottom: 2%;
     background-color: #4d90fe;
     text-align: center;
     color: white;
