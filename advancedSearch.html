@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Advanced Search</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <ul class="nav nav-pills justify-content-end my-nav">
@@ -18,6 +21,34 @@
             <a class="nav-link active" href="advancedSearch.html">Google Advanced Search</a>
         </li>
     </ul>
-    
+
+    <div class="container adv-container-style">
+
+        <h4>Find Pages With...</h4>
+
+        <form action="https://google.com/search" class="adv-form-style">
+            <div class="form-group form-group-style">
+                <label for="as_q">all these words:</label>
+                <input type="text" class="form-control" name="as_q" autocomplete="off">
+            </div>
+            <div class="form-group form-group-style">
+                <label for="as_epq">this exact word or phrase:</label>
+                <input type="text" class="form-control" name="as_epq" autocomplete="off">
+            </div>
+            <div class="form-group form-group-style">
+                <label for="as_oq">any of these words:</label>
+                <input type="text" class="form-control" name="as_oq" autocomplete="off">
+            </div>
+            <div class="form-group form-group-style">
+                <label for="as_eq">none of these words:</label>
+                <input type="text" class="form-control" name="as_eq" autocomplete="off">
+            </div>
+            <div class="form-group form-group-style">
+                <input type="submit" value="Advanced Search" id="submit-button" class="adv-search-button">
+            </div>
+        </form>
+    </div>
+
 </body>
+
 </html>

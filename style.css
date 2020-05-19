@@ -34,3 +34,23 @@ input:focus, textarea:focus {
     display: block;
     margin-top: 2%;   
 }
+
+.adv-container-style{
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+.adv-form-style{
+    margin-top: 2%;
+}
+
+.form-group-style{
+    margin-top: 2%;
+}
+
+.adv-search-button{
+    float: right;
+    background-color: #4d90fe;
+    text-align: center;
+    color: white;
+}
