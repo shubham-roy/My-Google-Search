@@ -1,6 +1,47 @@
+.toggler{
+    display: none;
+}
+
+.ham-checkbox{
+    display: none;
+}
+
 .my-nav{
     margin-top: 1%;
     margin-right: 1%;
+}
+
+@media only screen and (max-width: 450px){
+    .toggler{
+        float: right;
+        display: block;
+        cursor: pointer;
+        margin-top: 1%;
+        margin-right: 1%;
+        width: 48px;
+        height: 48px;
+        padding: 10px;
+    }
+    .my-nav-bar{
+        clear: both;
+        display: none;
+    }
+    .nav-item{
+        clear: both;
+        display: block;
+    }
+    .my-nav{
+        clear: both;
+        display: block;
+        text-align: center;
+        margin-right: 0;
+    }
+    #toggle:checked + .my-nav-bar{
+        clear: both;
+        display: block;
+        border-top: black 2px solid;
+        border-bottom: black 2px solid;
+    }
 }
 
 .form-box{
@@ -26,6 +67,7 @@ input:focus, textarea:focus {
 }
 
 .button-box{
+    margin-top: 4px;
     width: 60vw;
     min-width: 300px;
     display: flex;
@@ -41,6 +83,7 @@ input:focus, textarea:focus {
 }
 
 .adv-container-style{
+    clear: both;
     margin-top: 5%;
     margin-left: 3%;
 }
